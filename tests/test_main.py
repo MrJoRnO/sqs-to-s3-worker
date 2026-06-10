@@ -1,4 +1,3 @@
-import sys
 import re
 from unittest.mock import MagicMock, patch
 
