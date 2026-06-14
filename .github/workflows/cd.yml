@@ -186,4 +186,3 @@ jobs:
           git -C config-repo commit \
             -m "chore(release): sqs-to-s3-job → ${SHORT_SHA} [main] [skip ci]"
           git -C config-repo push origin main
-          
