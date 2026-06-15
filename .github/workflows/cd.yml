@@ -61,7 +61,7 @@ jobs:
             -t "${{ steps.meta.outputs.image_uri }}" .
 
       - name: Scan image with Trivy
-        uses: aquasecurity/trivy-action@v0.28.0
+        uses: aquasecurity/trivy-action@v0.30.0
         with:
           image-ref: ${{ steps.meta.outputs.image_uri }}
           format: table
@@ -148,7 +148,7 @@ jobs:
             -t "${{ steps.meta.outputs.image_uri }}" .
 
       - name: Scan image with Trivy
-        uses: aquasecurity/trivy-action@v0.28.0
+        uses: aquasecurity/trivy-action@v0.30.0
         with:
           image-ref: ${{ steps.meta.outputs.image_uri }}
           format: table
